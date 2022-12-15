@@ -54,7 +54,7 @@ public class Main {
               productOrders.add(new ProductOrder(productById, quantity));
               order.setProducts(productOrders);
             } else {
-              System.out.println("Product not exists!");
+              // System.out.println("Product not exists!");
             }
             System.out.print("Add more product: ");
             String addMore = sc.nextLine();
@@ -65,6 +65,7 @@ public class Main {
           }
           break;
         case 5:
+          System.out.println("Order");
           break;
       }
     } while (true);
